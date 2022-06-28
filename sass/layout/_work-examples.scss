@@ -1,0 +1,31 @@
+.work {
+  padding-bottom: 94px;
+}
+.work-content {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  bottom: 0;
+  font-weight: 700;
+
+  line-height: 1.14;
+  text-align: center;
+
+  text-transform: uppercase;
+  color: var(--primary-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.images {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+}
+.work-list-img {
+  display: flex;
+  margin-left: -30px;
+}
+.images {
+  position: relative;
+}

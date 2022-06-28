@@ -1,0 +1,109 @@
+.link-footer {
+  color: var(--footer-contacts-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+.link-map {
+  color: var(--primary-bg-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--acent-color);
+  }
+}
+
+.page-footer {
+  background-color: var(--hero-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.logo__footer-img {
+  color: var(--acent-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  margin-right: 93px;
+}
+.logo-footer {
+  color: var(--primary-bg-color);
+}
+
+.page-footer .logo__footer-img {
+  display: block;
+  margin-bottom: 20px;
+}
+.footer-list-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.contacts-footer-list .link-footer {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--acent-color);
+  }
+}
+
+.footer-soc-list {
+  display: flex;
+}
+.footer-soc-item {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.footer-soc-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--acent-color);
+  }
+}
+
+.footer-soc-icon {
+  fill: var(--primary-bg-color);
+}
+
+.footer-soc-title {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.page-footer .container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-div .logo {
+  margin-right: 0;
+}
+.footer-div {
+  margin-right: 70px;
+}
