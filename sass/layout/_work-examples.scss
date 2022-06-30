@@ -18,14 +18,29 @@
   justify-content: center;
   background-color: rgba(47, 48, 58, 0.8);
 }
-.images {
-  flex-basis: calc(100% / 3 - 30px);
-  margin-left: 30px;
-}
 .work-list-img {
   display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+
   // margin-left: -30px;
 }
+.images {
+  width: 100%;
+  @media screen and (min-width: 480px) {
+    width: calc((100% - 60px) / 3);
+  }
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 60px) / 3);
+  }
+  @media screen and (max-width: 1200px) {
+    width: calc((100% - 60px) / 3);
+    visibility: hidden;
+  }
+  // flex-basis: calc(100% / 3 - 30px);
+  // margin-left: 30px;
+}
+
 .images {
   position: relative;
 }
