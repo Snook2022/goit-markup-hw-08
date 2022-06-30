@@ -322,9 +322,14 @@ address {
 
 .work {
   padding-bottom: 94px;
+  display: none;
 }
-
-.work-content {
+@media screen and (min-width: 1200px) {
+  .work {
+    display: block;
+  }
+}
+.work .work-content {
   position: absolute;
   width: 100%;
   height: 70px;
@@ -339,31 +344,16 @@ address {
   justify-content: center;
   background-color: rgba(47, 48, 58, 0.8);
 }
-
-.work-list-img {
+.work .work-list-img {
   display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+  margin-left: -30px;
 }
-
-.images {
-  width: 100%;
+.work .images {
+  flex-basis: calc(33.3333333333% - 30px);
+  margin-left: 30px;
 }
-@media screen and (min-width: 480px) {
-  .images {
-    width: calc((100% - 60px) / 3);
-  }
-}
-@media screen and (min-width: 768px) {
-  .images {
-    width: calc((100% - 60px) / 3);
-  }
-}
-@media screen and (max-width: 1200px) {
-  .images {
-    width: calc((100% - 60px) / 3);
-    visibility: hidden;
-  }
+.work .section .section-work .work {
+  display: none;
 }
 
 .images {
