@@ -212,12 +212,15 @@ address {
 }
 
 .mobile-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
   display: block;
   margin-left: auto;
   background-color: var(--primary-bg-color);
   border: none;
   cursor: pointer;
-  margin-bottom: 15px;
+  padding: 0;
 }
 
 .mob-menu {
@@ -227,8 +230,6 @@ address {
   background-color: var(--primary-bg-color);
   width: 100vw;
   height: 100vh;
-  padding-top: 10px;
-  padding-bottom: 48px;
 }
 .mob-menu .menu-container {
   display: flex;
@@ -243,6 +244,8 @@ address {
   margin: 0 auto;
   padding-left: 40px;
   padding-right: 15px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .mob-menu-item:not(:last-child) {
