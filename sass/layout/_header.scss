@@ -132,6 +132,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    overflow-y: auto;
   }
 }
 .menu-container {
@@ -188,9 +189,7 @@
 
   color: #2196f3;
 }
-.mob-soc-link {
-  margin-right: 20px;
-}
+
 // .mob-menu-list {
 //   margin-bottom: 306px;
 // }
@@ -204,5 +203,6 @@
 .mob-soc-item:not(:last-child) {
   margin-right: 10px;
   padding-right: 10px;
+
   border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
