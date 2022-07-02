@@ -230,6 +230,12 @@ address {
   padding-top: 10px;
   padding-bottom: 48px;
 }
+.mob-menu .menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
 
 .menu-container {
   width: 100%;
@@ -288,10 +294,6 @@ address {
   margin-right: 20px;
 }
 
-.mob-menu-list {
-  margin-bottom: 306px;
-}
-
 .mob-soc-item {
   display: inline-block;
 }
@@ -299,6 +301,12 @@ address {
 .mob-soc-list {
   display: flex;
   flex-wrap: wrap;
+}
+
+.mob-soc-item:not(:last-child) {
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .hero {
