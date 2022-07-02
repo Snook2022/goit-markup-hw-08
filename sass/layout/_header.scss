@@ -65,6 +65,7 @@
 .contacts {
   display: flex;
   margin-left: auto;
+  display: none;
 }
 
 .contacts .nav__item + .nav__item {
@@ -95,4 +96,27 @@
   display: block;
   margin-right: 10px;
   fill: currentColor;
+}
+.nav {
+  display: none;
+}
+.mobile-open-btn {
+  display: block;
+  margin-left: auto;
+  background-color: var(--primary-bg-color);
+  border: none;
+  cursor: pointer;
+}
+.mobile-open-btn:hover,
+.mobile-open-btn:focus {
+  background-color: var(--acent-color);
+}
+
+.mob-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-bg-color);
+  width: 100vw;
+  height: 100vh;
 }
