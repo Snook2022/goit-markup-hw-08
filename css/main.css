@@ -162,7 +162,6 @@ address {
 .contacts {
   display: flex;
   margin-left: auto;
-  display: none;
 }
 
 .contacts .nav__item + .nav__item {
@@ -212,13 +211,84 @@ address {
   background-color: var(--acent-color);
 }
 
+.mobile-close-btn {
+  display: block;
+  margin-left: auto;
+  background-color: var(--primary-bg-color);
+  border: none;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
 .mob-menu {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background-color: var(--primary-bg-color);
   width: 100vw;
   height: 100vh;
+  padding-top: 10px;
+  padding-bottom: 48px;
+}
+
+.menu-container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 15px;
+}
+
+.mob-menu-item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.mob-menu-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.mob-tel-link {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--acent-color);
+  text-decoration: none;
+}
+
+.mob-mail-link {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.mob-soc-link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
+.mob-soc-link {
+  margin-right: 20px;
+}
+
+.mob-menu-list {
+  margin-bottom: 306px;
+}
+
+.mob-soc-item {
+  display: inline-block;
 }
 
 .hero {
