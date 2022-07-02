@@ -103,6 +103,8 @@ address {
 }
 
 .page-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -204,6 +206,9 @@ address {
   background-color: var(--primary-bg-color);
   border: none;
   cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
 }
 
 .mobile-open-btn:hover,
@@ -221,6 +226,8 @@ address {
   border: none;
   cursor: pointer;
   padding: 0;
+  display: flex;
+  align-items: center;
 }
 
 .mob-menu {
@@ -237,6 +244,16 @@ address {
   justify-content: space-between;
   height: 100%;
   overflow-y: auto;
+}
+
+.mob-menu {
+  transform: translateX(0);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-menu.is-hidden {
+  transform: translateX(100%);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-container {
