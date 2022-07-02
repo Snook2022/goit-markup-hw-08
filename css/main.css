@@ -254,6 +254,10 @@ address {
   text-decoration: none;
 }
 
+.mob-contact {
+  margin-bottom: 64px;
+}
+
 .mob-tel-link {
   font-weight: 500;
   font-size: 34px;
@@ -269,6 +273,7 @@ address {
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
 }
 
 .mob-soc-link {
@@ -289,6 +294,11 @@ address {
 
 .mob-soc-item {
   display: inline-block;
+}
+
+.mob-soc-list {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .hero {
