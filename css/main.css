@@ -235,7 +235,7 @@ address {
   fill: currentColor;
 }
 
-.item-icon-tab {
+.item__icon-tab {
   display: block;
   margin-right: 8px;
   fill: currentColor;
