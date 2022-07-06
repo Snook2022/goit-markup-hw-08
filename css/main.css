@@ -230,6 +230,12 @@ address {
 }
 
 .item__icon {
+  display: none;
+  margin-right: 8px;
+  fill: currentColor;
+}
+
+.item-icon-tab {
   display: block;
   margin-right: 8px;
   fill: currentColor;
