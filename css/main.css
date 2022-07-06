@@ -101,11 +101,33 @@ address {
   text-decoration: none;
   margin-right: 93px;
 }
+@media screen and (min-width: 768px) {
+  .logo__header {
+    margin-right: 88px;
+  }
+}
 
 .page-header {
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid #ececec;
+}
+@media screen and (min-width: 768px) {
+  .page-header {
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .page-header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+}
+
+.page-header > .container {
+  display: flex;
+  align-items: center;
 }
 
 .logo__studio {
@@ -161,8 +183,15 @@ address {
 }
 
 /* Contacts */
-.contacts {
-  display: flex;
+@media screen and (min-width: 768px) {
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.header__contact {
   margin-left: auto;
 }
 
@@ -194,10 +223,6 @@ address {
   display: block;
   margin-right: 10px;
   fill: currentColor;
-}
-
-.nav {
-  display: none;
 }
 
 .mobile-open-btn {

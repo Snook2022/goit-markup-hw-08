@@ -18,6 +18,9 @@
   transform: translate(-50%, -50%) scale(1) rotate(0);
   transition: transform 500ms;
   padding: 40px;
+  @media screen and (min-width: 480px) {
+  }
+
   .backdrop.is-hidden & {
     transform: translate(-50%, -50%) scale(0) rotate(180deg);
   }
