@@ -6,7 +6,6 @@
   text-decoration: none;
 
   @media screen and (min-width: 768px) {
-    margin-right: 88px;
   }
 }
 
@@ -38,6 +37,7 @@
   }
   display: flex;
   align-items: center;
+  margin-left: auto;
 }
 /* site-nav */
 .nav__list {

@@ -100,12 +100,6 @@ address {
   line-height: 1.19;
   text-decoration: none;
 }
-@media screen and (min-width: 768px) {
-  .logo__header {
-    margin-right: 88px;
-  }
-}
-
 .page-header {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -136,6 +130,7 @@ address {
 .nav-wrap {
   display: flex;
   align-items: center;
+  margin-left: auto;
 }
 @media screen and (max-width: 768px) {
   .nav-wrap {
