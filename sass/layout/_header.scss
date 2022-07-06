@@ -37,6 +37,7 @@
     display: none;
   }
   display: flex;
+  align-items: center;
 }
 /* site-nav */
 .nav__list {
@@ -50,7 +51,6 @@
 }
 
 .nav__list .nav__link {
-  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-text-color);

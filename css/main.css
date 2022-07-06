@@ -135,6 +135,7 @@ address {
 
 .nav-wrap {
   display: flex;
+  align-items: center;
 }
 @media screen and (max-width: 768px) {
   .nav-wrap {
@@ -155,7 +156,6 @@ address {
 }
 
 .nav__list .nav__link {
-  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-text-color);
