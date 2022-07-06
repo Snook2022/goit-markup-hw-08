@@ -99,7 +99,6 @@ address {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  margin-right: 93px;
 }
 @media screen and (min-width: 768px) {
   .logo__header {
@@ -202,10 +201,6 @@ address {
 
 .header__contact {
   margin-left: auto;
-}
-
-.contacts .nav__item + .nav__item {
-  margin-left: 30px;
 }
 
 .contacts .nav__link {
