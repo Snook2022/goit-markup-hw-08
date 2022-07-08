@@ -542,6 +542,7 @@ address {
 }
 
 .work {
+  padding-top: 47px;
   padding-bottom: 94px;
   display: none;
 }
@@ -579,6 +580,12 @@ address {
 
 .images {
   position: relative;
+}
+
+@media screen and (min-width: 1200px) {
+  .section-feature {
+    margin-bottom: 47px;
+  }
 }
 
 .section-team {
