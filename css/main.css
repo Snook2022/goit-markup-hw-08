@@ -207,6 +207,11 @@ address {
   margin-left: auto;
   margin-left: 84px;
 }
+@media screen and (min-width: 1200px) {
+  .header__contact {
+    margin-left: 305px;
+  }
+}
 
 .contacts .nav__link {
   display: flex;
