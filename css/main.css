@@ -248,6 +248,7 @@ address {
 @media screen and (min-width: 1200px) {
   .item__icon {
     display: block;
+    margin-right: 10px;
   }
 }
 
