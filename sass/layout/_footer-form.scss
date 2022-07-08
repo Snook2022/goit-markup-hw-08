@@ -8,6 +8,9 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-bg-color);
+  @media screen and (min-width: 1200px) {
+    text-align: start;
+  }
 }
 
 .subscribe-form {
@@ -17,6 +20,10 @@
   row-gap: 20px;
   @media screen and (max-width: 480px) {
     width: 100%;
+  }
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+    column-gap: 12px;
   }
 }
 .substrime-icon {
@@ -38,6 +45,9 @@
   }
   @media screen and (min-width: 480px) {
     width: 450px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 358px;
   }
 }
 

@@ -6,6 +6,10 @@
   text-decoration: none;
 
   @media screen and (min-width: 768px) {
+    margin-right: 88px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
   }
 }
 
@@ -92,6 +96,11 @@
     flex-direction: column;
     gap: 10px;
   }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
 }
 .header__contact {
   margin-left: auto;
@@ -120,6 +129,12 @@
   @media screen and (max-width: 1199px) {
     padding: 0;
   }
+  @media screen and (min-width: 1200px) {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428571429;
+    letter-spacing: 0.02em;
+  }
 }
 
 .site-nav .nav__link.current {
@@ -129,11 +144,17 @@
   display: none;
   margin-right: 8px;
   fill: currentColor;
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
 }
 .item__icon-tab {
   display: block;
   margin-right: 8px;
   fill: currentColor;
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
 }
 
 .mobile-open-btn {

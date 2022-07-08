@@ -62,9 +62,13 @@
 }
 .footer-list-item {
   text-align: center;
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
 }
 .footer-soc-list {
   display: flex;
+  justify-content: center;
 }
 .footer-soc-item {
   width: 44px;
@@ -106,6 +110,9 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  @media screen and (min-width: 1200px) {
+    text-align: start;
+  }
 }
 .page-footer .container {
   display: flex;

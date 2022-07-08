@@ -100,6 +100,17 @@ address {
   line-height: 1.19;
   text-decoration: none;
 }
+@media screen and (min-width: 768px) {
+  .logo__header {
+    margin-right: 88px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .logo__header {
+    margin-right: 93px;
+  }
+}
+
 .page-header {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -193,6 +204,13 @@ address {
     gap: 10px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .contacts {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+}
 
 .header__contact {
   margin-left: auto;
@@ -220,6 +238,14 @@ address {
     padding: 0;
   }
 }
+@media screen and (min-width: 1200px) {
+  .contacts .nav__link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428571429;
+    letter-spacing: 0.02em;
+  }
+}
 
 .site-nav .nav__link.current {
   color: var(--acent-color);
@@ -230,11 +256,21 @@ address {
   margin-right: 8px;
   fill: currentColor;
 }
+@media screen and (min-width: 1200px) {
+  .item__icon {
+    display: block;
+  }
+}
 
 .item__icon-tab {
   display: block;
   margin-right: 8px;
   fill: currentColor;
+}
+@media screen and (min-width: 1200px) {
+  .item__icon-tab {
+    display: none;
+  }
 }
 
 .mobile-open-btn {
@@ -923,9 +959,15 @@ address {
 .footer-list-item {
   text-align: center;
 }
+@media screen and (min-width: 1200px) {
+  .footer-list-item {
+    text-align: left;
+  }
+}
 
 .footer-soc-list {
   display: flex;
+  justify-content: center;
 }
 
 .footer-soc-item {
@@ -966,6 +1008,11 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+}
+@media screen and (min-width: 1200px) {
+  .footer-soc-title {
+    text-align: start;
+  }
 }
 
 .page-footer .container {
@@ -1217,6 +1264,11 @@ address {
   text-transform: uppercase;
   color: var(--primary-bg-color);
 }
+@media screen and (min-width: 1200px) {
+  .footer-title {
+    text-align: start;
+  }
+}
 
 .subscribe-form {
   display: flex;
@@ -1227,6 +1279,12 @@ address {
 @media screen and (max-width: 480px) {
   .subscribe-form {
     width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .subscribe-form {
+    flex-direction: row;
+    column-gap: 12px;
   }
 }
 
@@ -1251,6 +1309,11 @@ address {
 @media screen and (min-width: 480px) {
   .subscribe-form input {
     width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .subscribe-form input {
+    width: 358px;
   }
 }
 
