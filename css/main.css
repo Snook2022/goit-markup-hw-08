@@ -584,7 +584,7 @@ address {
 
 @media screen and (min-width: 1200px) {
   .section-feature {
-    margin-bottom: 47px;
+    padding-bottom: 47px;
   }
 }
 
