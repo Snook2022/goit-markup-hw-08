@@ -101,6 +101,13 @@ address {
   line-height: 1.17;
   text-decoration: none;
 }
+@media screen and (min-width: 1200px) {
+  .logo__header {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
 
 .page-header {
   padding-top: 10px;
