@@ -635,7 +635,7 @@ address {
   text-align: center;
   margin-bottom: 30px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .section-title {
     margin-bottom: 30px;
     font-weight: 700;
@@ -751,10 +751,20 @@ address {
 }
 
 .work-list {
-  margin-top: 30px;
+  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+}
+@media screen and (min-width: 768px) {
+  .work-list {
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .work-list {
+    margin-top: 50px;
+  }
 }
 
 .galery-item {
@@ -790,8 +800,8 @@ address {
   padding-bottom: 63px;
   padding-right: 24px;
   height: 100%;
-  transform: translateY(100%);
-  transition: transform 250ms linear;
+  transform: translateY(101%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--primary-bg-color);
   background-color: rgba(33, 150, 243, 0.9);
 }
@@ -939,8 +949,14 @@ address {
 }
 
 .section-portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .section-portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .link-footer {
